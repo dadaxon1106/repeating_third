@@ -15,7 +15,7 @@ class ProfilePage extends StatelessWidget {
           },
           icon: const Icon(Icons.arrow_back_ios),
         ),
-        title: Text("${args[0]} ${args[1]}"),
+        title: Text("$args"),
         centerTitle: true,
         backgroundColor: Colors.red,
         foregroundColor: Colors.white,

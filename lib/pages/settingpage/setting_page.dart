@@ -23,7 +23,7 @@ class SettingPage extends StatelessWidget {
           IconButton(
             onPressed: () {
               Navigator.pushReplacementNamed(context, ProfilePage.route,
-                  arguments: ["Welcome", "Profile Page"]);
+                  arguments: "Profile Page");
             },
             icon: const Icon(Icons.person),
           )
