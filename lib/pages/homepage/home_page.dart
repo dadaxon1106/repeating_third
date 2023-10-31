@@ -65,6 +65,7 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(
+            heroTag: "a",
             onPressed: () {
               Navigator.pushNamed(context, ProfilePage.route,
                   arguments: "Dadaxon");
@@ -76,6 +77,7 @@ class HomePage extends StatelessWidget {
             height: 10,
           ),
           FloatingActionButton(
+            heroTag: "b",
             onPressed: () {
               Navigator.pushNamed(context, SettingPage.route);
             },
