@@ -6,7 +6,7 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final args = ModalRoute.of(context)!.settings.arguments as List;
+    final args = ModalRoute.of(context)!.settings.arguments;
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
